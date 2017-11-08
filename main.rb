@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'thin'
+require 'sinatra/base'
+require 'sinatra/assetpack'
 
 # sets root as the parent-directory of the current file
 set :root, File.join(File.dirname(__FILE__))
