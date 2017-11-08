@@ -11,3 +11,7 @@ set :views, Proc.new { File.join(root, "app", "views") }
 get '/' do
   erb :index
 end
+
+get '/works' do
+  erb :works
+end
